@@ -41,10 +41,12 @@ The animation will run until you press any key.
 You can customize the animation with the following command-line flags:
 
 *   `-s <speed>`: Sets the animation speed. Higher numbers are faster. Default is `50`.
+*   
     ```bash
     ./pipes -s 100
     ```
 *   `-b <bend_chance>`: Sets the chance for a pipe to bend. A lower number means more frequent bends. Default is `50`.
+*   
     ```bash
     ./pipes -b 10
     ```
