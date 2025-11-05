@@ -1,4 +1,5 @@
 # Terminal Pipes
+<img width="1876" height="893" alt="Screenshot 2025-11-05 at 20 22 55" src="https://github.com/user-attachments/assets/c2127688-c4ba-4094-ac98-ad5c14839cc1" />
 
 A classic "pipes" screensaver animation running in your terminal, written in C using the `ncurses` library.
 
