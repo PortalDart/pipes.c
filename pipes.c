@@ -88,7 +88,7 @@ int main(int argc, char *argv[]) {
                 int next_direction = pipes[i].direction;
                 if (rand() % bend_chance == 0) {
                     int random_direction = rand() % 4;
-                    if (random_direction != (pipes[i].direction + 2) % 4) { // Prevent 180-degree turns
+                    if (random_direction != (pipes[i].direction + 2) % 4) { 
                         next_direction = random_direction;
                     }
                 }
